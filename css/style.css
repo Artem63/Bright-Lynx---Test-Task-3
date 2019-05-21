@@ -1,0 +1,32 @@
+.field {
+	display: flex;
+	flex-wrap: wrap;
+	width: 408px;
+	height: 408px;
+	margin: 50px auto 20px;
+	background-color: white;
+	border: 1px solid lightgray;
+}
+
+.cell {
+	width: 100px;
+	height: 100px;
+	border: 1px solid lightgray;
+	background-color: white;
+}
+
+.button {
+	margin: 0 auto;
+	padding: 4px 16px;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+}
+
+#timer {
+	font-size: 20px;
+	font-color: black;
+	display: flex;
+	justify-content: center;
+	margin: 10px auto;
+}
